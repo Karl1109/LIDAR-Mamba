@@ -24,6 +24,10 @@
 
 ## ⚒ Method Overview
 
+<p align="center">
+    <img src="./figures/LIDAR.png" alt="Overview" />
+</p>
+
 
 Achieving pixel-level segmentation with low computational cost using multimodal data remains a key challenge in crack segmentation tasks. Existing methods lack the capability for adaptive perception and efficient interactive fusion of cross-modal features. To address these challenges, we propose a Lightweight Adaptive Cue-Aware vision Mamba network (LIDAR), which efficiently perceives and integrates morphological and textural cues from different modalities under multimodal crack scenarios, generating clear pixel-level crack segmentation maps. Specifically, LIDAR is composed of a Lightweight Adaptive Cue-Aware Visual State Space module (LacaVSS) and a Lightweight Dual Domain Dynamic Collaborative Fusion module (LD3CF). LacaVSS adaptively models crack cues through the proposed mask-guided Efficient Dynamic Guided Scanning Strategy (EDG-SS), while LD3CF leverages an Adaptive Frequency Domain Perceptron (AFDP) and a dual-pooling fusion strategy to effectively capture spatial and frequency-domain cues across modalities. Moreover, we design a Lightweight Dynamically Modulated Multi-Kernel convolution (LDMK) to perceive complex morphological structures with minimal computational overhead, replacing most convolutional operations in LIDAR. Experiments on three datasets demonstrate that our method outperforms other state-of-the-art (SOTA) methods. On the light-field depth dataset, our method achieves 0.8204 in F1 and 0.8465 in mIoU with only 5.35M parameters.
 
@@ -34,8 +38,9 @@ Achieving pixel-level segmentation with low computational cost using multimodal 
 The `CrackPolar`, `CrackDepth` and `IRTCrack` that we use can be downloaded from Google Drive.
 
 <p align="center">
-    <img src="./figures/Datasets_analyse.png" alt="Overview" />
+    <img src="./figures/Datasets_Analyse.png" alt="Overview" />
 </p>
+
 
 #### ⚙️ Environment Setup
 
