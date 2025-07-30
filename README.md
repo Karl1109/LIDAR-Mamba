@@ -34,7 +34,7 @@ Achieving pixel-level segmentation with low computational cost using multimodal 
 The `CrackPolar`, `CrackDepth` and `IRTCrack` that we use can be downloaded from Google Drive.
 
 <p align="center">
-    <img src="./figures/Datasets_analyse.png" alt="Overview" />
+    <img src="./figures/Datasets_Analyse.png" alt="Overview" />
 </p>
 
 #### ⚙️ Environment Setup
