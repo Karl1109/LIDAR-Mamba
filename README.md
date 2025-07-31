@@ -14,11 +14,12 @@
 
 
 <div align="center">
+      <a href="https://arxiv.org/abs/2507.22477"><img src="https://img.shields.io/badge/Arxiv-2507.22477-b31b1b?logo=arXiv" alt="arXiv" style="height:20px;"></a>
   <a href="https://www.apache.org/licenses/" style="margin-left:10px;"><img src="https://img.shields.io/badge/License-Apache%202.0-yellow" alt="License" style="height:20px;"></a>
 </div>
 
 ## 📬 News
-
+- **2025-07-31**: The preprint of **LIDAR** has been posted on [**📤️arXiv**](https://arxiv.org/abs/2507.22477)!
 - **2025-07-30**: The code for **LIDAR** is publicly available in this repository! 📦
 - **2025-07-06**: 🎉🎉🎉We are delighted to announce that our **LIDAR** has been accepted by the **ACM MM 2025**! 🖐😭🤚
 
