@@ -29,7 +29,7 @@ def calculate_patch_importance(mask, patch_size, direction='horizontal'):
             y_end = min(i + patch_size, H)
 
             importance_value = integral[y_end, x_end] - integral[i, x_end] - integral[y_end, j] + integral[i, j]
-            importance.append(int(importance_value))  # 转换为原生 int
+            importance.append(int(importance_value))
 
     return importance
 
@@ -60,8 +60,6 @@ def process_single_image(mask_path, patch_size=8):
             for scan_type in ['start_to_end', 'end_to_start']:
                 importance = calculate_patch_importance(mask_bin, patch_size, direction)
                 o, o_reversed = generate_EDG_scan_sequences(importance, scan_type)
-
-                # 确保返回的所有值都是 Python 原生 int 类型
                 orders.extend([
                     [int(i) for i in o],
                     [int(i) for i in o_reversed]
